@@ -2,9 +2,9 @@ var mysql = require("mysql");
 
 exports.doTable = function(databaseName, tableName, fv1) {
     var con = mysql.createConnection({
-        host: "localhost",
-        user: "root",
-        password: "",
+        host: "sql.freedb.tech",
+        user: "freedb_proba1",
+        password: "FEFF@4hQ7&8Tmzt",
         database: databaseName
      });
     
