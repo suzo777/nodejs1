@@ -1,0 +1,19 @@
+{
+  "name": "nodejs1",
+  "version": "1.0.0",
+  "description": "nodejs1 proba",
+  "main": "feladat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suzo777/nodejs1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suzo777/nodejs1/issues"
+  },
+  "homepage": "https://github.com/suzo777/nodejs1#readme"
+}
