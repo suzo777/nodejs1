@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/suzo777/nodejs1#readme",
   "dependencies": {
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "mysql2": "^3.15.0"
   }
 }

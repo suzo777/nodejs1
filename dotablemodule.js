@@ -1,4 +1,4 @@
-var mysql = require("mysql");
+var mysql = require("mysql2");
 
 exports.doTable = function(databaseName, tableName, fv1) {
     var con = mysql.createConnection({
