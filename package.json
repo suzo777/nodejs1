@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/suzo777/nodejs1/issues"
   },
-  "homepage": "https://github.com/suzo777/nodejs1#readme"
+  "homepage": "https://github.com/suzo777/nodejs1#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }
