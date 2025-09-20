@@ -9,8 +9,7 @@ res.writeHead(200, {'Content-Type': 'text/html; charset=utf-8'});
 res.write(text);
 res.end();
 });
-//}).listen(8080);
-}).listen(5432);
+}).listen(8080);
 
 function adatb(fuggveny) {
 var connection = mysql.createConnection({
