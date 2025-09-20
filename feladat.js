@@ -1,3 +1,11 @@
+var pg = require('pg');
+//var conString = "postgres://YourUserName:YourPassword@localhost:5432/YourDatabase";
+var conString = "postgresql://nodejs1_user:2NlfSGty4r1woCFSrCJC2nY7gyzFOhRt@dpg-d375rbffte5s73avaeag-a/nodejs1";
+var client = new pg.Client(conString);
+client.connect();
+
+
+/*
 const http = require('http'); 
 var mysql      = require('mysql2');
 console.log("Kapcsolódás az adatbázishoz ... "); 
@@ -32,3 +40,4 @@ var text = " Error connecting database ... ";
 		fuggveny(text);	
  });
 }
+ */
