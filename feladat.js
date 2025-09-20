@@ -13,8 +13,8 @@ const server = http.createServer((req, res) => {
 
 function adatb(fuggveny) {
     var conString = "postgresql://nodejs1_user:2NlfSGty4r1woCFSrCJC2nY7gyzFOhRt@dpg-d375rbffte5s73avaeag-a/nodejs1";
-    var client = new pg.Client(conString);
-    client.connect(function(err){
+    var connection = new pg.Client(conString);
+    connection.connect(function(err){
     if(!err) 
         var text = " Database is connected ... ";
     else 
