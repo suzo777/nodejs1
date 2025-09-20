@@ -13,7 +13,8 @@ res.end();
 
 function adatb(fuggveny) {
 var connection = mysql.createConnection({
-    host: "dpg-d375rbffte5s73avaeag-a",
+    //host: "dpg-d375rbffte5s73avaeag-a",
+    host: "0.0.0.0",
     user: "nodejs1_user",
     password: "2NlfSGty4r1woCFSrCJC2nY7gyzFOhRt",
     port: 5432,
