@@ -20,7 +20,7 @@ var connection = mysql.createConnection({
     host: "127.0.0.1",
     user: "nodejs1_user",
     password: "2NlfSGty4r1woCFSrCJC2nY7gyzFOhRt",
-    port: 5432,
+    //port: 5432,
     database : 'nodejs1'
  });
 connection.connect(function(err){
