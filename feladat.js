@@ -13,8 +13,8 @@ res.end();
 
 function adatb(fuggveny) {
 var connection = mysql.createConnection({
-    //host: "dpg-d375rbffte5s73avaeag-a",
-    host: "0.0.0.0",
+    host: "dpg-d375rbffte5s73avaeag-a",
+    //host: "0.0.0.0",
     //host: "localhost",
     //host: "postgresql://nodejs1_user:2NlfSGty4r1woCFSrCJC2nY7gyzFOhRt@dpg-d375rbffte5s73avaeag-a/nodejs1",
     //host: "127.0.0.1",
