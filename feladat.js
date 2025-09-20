@@ -4,6 +4,24 @@ var conString = "postgresql://nodejs1_user:2NlfSGty4r1woCFSrCJC2nY7gyzFOhRt@dpg-
 var client = new pg.Client(conString);
 client.connect();
 
+const result = await client.query('SELECT NOW()')
+console.log(result)
+//await client.end()
+
+
+/*
+
+import { Client } from 'pg'
+const client = new Client()
+ 
+await client.connect()
+ 
+const result = await client.query('SELECT NOW()')
+console.log(result)
+ 
+await client.end()
+
+*/
 
 /*
 const http = require('http'); 
